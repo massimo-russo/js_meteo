@@ -17,13 +17,13 @@ body{
 }
 
 .card{
-    background:rgb(202, 241, 108);
+    background: rgb(243, 189, 11);
     color:black;
     padding: 5em;
     border-radius: 10px;
-    width: 200%;
-    max-width: 320px;
-    margin:10em;
+    width: 100%;
+    height: 100%;
+    margin:0.1em;
 }
 
 header {
@@ -35,12 +35,13 @@ header {
   }
   
   header input {
-    width: 40%;
+    width: 60%;
     height: 40%;
     padding: 10px 10px;
     font-size: 1.5rem;
     outline: none;
-    border-radius: 5px;
+    border-radius: 4px;
+    margin-bottom: 10%;
     border: none;
     color: rgb(14, 10, 10);
     background-color: rgba(217, 248, 219, 0.445);
