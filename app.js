@@ -33,7 +33,7 @@ function dataDisplay(response){
     searchCity.innerText = response['name'] + ','+ response['sys']['country']; //1st way
     searchTemp.innerText = response['main']['temp'] + String.fromCharCode(176) + 'c';
     searchWeather.innerText = response.weather[0].main; //2nd way
-    searchHiLow.innerText = response.main.temp_max + String.fromCharCode(176) + 'c'+ '/'+ response.main.temp_min + String.fromCharCode(176)+ 'c'
+    searchHiLow.innerText = response.main.temp_max + String.fromCharCode(176) + 'c (massima)'+ '/'+ response.main.temp_min + String.fromCharCode(176)+ 'c (minima)'
     }
 }
 
